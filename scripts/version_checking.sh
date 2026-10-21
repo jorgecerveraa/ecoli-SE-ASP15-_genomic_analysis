@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo "Python:"
+python --version
+echo "----------"
+echo "FastQC:"
+fastqc --version
+echo "----------"
+echo "Fastp:"
+fastp --version
+echo "----------"
+echo "Spades:"
+spades.py --version
+echo "----------"
+echo "QUAST:"
+quast.py --version
+echo "----------"
+echo "SEQkit:"
+seqkit version
+echo "----------"
+echo "fastANI:"
+fastANI --version
+echo "----------"
+echo "MLST:"
+mlst --version
+echo "----------"
+echo "AMRFinderPlus:"
+amrfinder --update
+amrfinder --version
+echo "----------"
+echo "Git:"
+git --version
+echo "----------"
