@@ -1,0 +1,12 @@
+# Ignore large data files:
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Ignore temporary files too
+*.tmp
+*.log
+
+# Space for adding large analysis outputs (if needed)

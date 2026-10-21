@@ -1,0 +1,15 @@
+name: ecoli-genomics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - fastqc
+  - fastp
+  - spades
+  - quast
+  - seqkit
+  - fastani
+  - mlst
+  - amrfinderplus
+  - git
